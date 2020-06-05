@@ -1,7 +1,10 @@
-class StringCalculator
+class StringCalculator 
 
-   def calcular
-    "Este es el metódo"
+   def calcular valor = nil
+    if valor != nil
+        valor.to_i
+    else 
+        "Este es el metódo" 
+    end
    end
-
 end
