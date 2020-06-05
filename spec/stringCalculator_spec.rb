@@ -23,4 +23,16 @@ describe StringCalculator do
     
     end
 
+    it "Llamamos al metodo calcular y le pasamos un 5+1 por parametro" do
+        #Arrange
+        calculator = StringCalculator.new
+ 
+        #act
+        result = calculator.calcular("5+1")
+ 
+        #assert
+        expect(result).to eq(6)
+     
+     end
+
 end
