@@ -1,8 +1,8 @@
-![](https://github.com/kleer-la/template2_6_5/workflows/Ruby/badge.svg)
+![](https://github.com/Kenshincp/StringCalculator/workflows/Ruby/badge.svg)
 
 para ver el reporte de analisis de codigo:
 
-https://kleer-la.github.io/template2_6_5/overview.html#
+https://Kenshincp.github.io/StringCalculator/overview.html#
 
 
 ### Para el setup sin docker:
