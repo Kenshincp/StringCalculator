@@ -35,4 +35,17 @@ describe StringCalculator do
      
      end
 
+
+     it "Llamamos al metodo calcular y le pasamos 1+2+4\n+5+6 = 18" do
+        #Arrange
+        calculator = StringCalculator.new
+ 
+        #act
+        result = calculator.calcular("1+2+4\n+5+6")
+ 
+        #assert
+        expect(result).to eq(18)
+     
+     end
+
 end
