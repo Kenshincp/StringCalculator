@@ -1,7 +1,7 @@
 class StringCalculator
 
-    def calcular operacion 
-
-    end
+   def calcular
+    "Este es el metódo"
+   end
 
 end
